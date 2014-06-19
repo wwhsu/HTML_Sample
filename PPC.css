@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: arial, sans-serif;
+	margin: 0 auto;
+	width: 960px;
+}
+
+h2{
+	background-color: yellow;
+	color: black;
+	font-size: 11px;
+	padding: 7px;
+}
+
+h3{
+	margin-top: 10px;
+	padding-left: 10px;
+}
+
+nav{
+	font-size: 10px;
+	color: gray;
+	background: linear-gradient(to bottom, #f2f6f8 0%,#b5c6d0 1%,#d8e1e7 50%,#e0eff9 100%);
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+
+nav a{
+	padding: 10px;
+	border-right: 1px solid	gray;
+	color: gray;
+}
+
+.center{
+	vertical-align: bottom;
+}
+
+.bold{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 30px;
+}
+
+.boxes{
+	width: 212px;
+	background-color: white;
+	height: 217px;
+	vertical-align: top;
+}
+.boxes h2{
+	width: 198px;
+}
+
+.boxes p{
+	width: 212px;
+	font-size: 10px;
+	background-color: white;
+	margin-top: -4px;
+	margin-bottom: 15px;
+}
+
+.button{
+	margin-left: 100px;
+	background-color: yellow;
+	padding: 1px;
+	padding-left: 7px;
+	padding-right: 5px;
+}
+
+#topbar{
+	display: block;
+	background: linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 41%,#dbdbdb 41%,#fefefe 100%);
+}
+
+#logos{
+	width: 90px;
+	display: inline-block;
+}
+
+#phone{
+	text-align: right;
+	display: inline-block;
+	margin-left: 390px;
+}
+
+#main-content{
+	margin-top: 12px;
+	background: radial-gradient(ellipse at center, #45484d 24%,#000000 98%,#000000 98%);
+}
+
+#warehouses{
+	margin: 10px;
+	vertical-align: top;
+}
+
+#warehouse{
+	vertical-align: top;
+}
+
+#about{
+	width: 659px;
+	display: inline-block;
+	height: 50px;
+	font-size: 11px;
+	color: white;
+	margin-top: 10px;
+}
+
+#about p{
+	padding-left: 10px;
+}
+
+#gradient{
+	background-color: transparent;
+	padding-top: 10px;
+	padding-bottom: 12px;
+}
+
+#mini{
+	margin: 6px;
+	width: 15px;
+	color: white;
+	font-size: 8px;
+	display: block;
+}
+
+#mini p{
+	width: 659px;
+	display: inline-block;
+}
+
+#mini-r{
+	color: white;
+	
+	width: 924px;
+	font-size: 8px;
+}
+
+#mini, #mini-r{
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 0px;
+}
+
+
+#industries{
+	margin: 10px;
+	display: inline-block;
+	margin-top: -12px;
+}
+
+#automotive, #commercial, #industrial, #diesel{
+	display: inline-block;
+	margin: 10px;
+}
+
+#automotives, #commercials, #industrials, #diesels{
+	width: 212px;
+}
+
